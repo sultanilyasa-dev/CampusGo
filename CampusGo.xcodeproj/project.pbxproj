@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		B2E04FFF2FB316F200D76382 /* CampusGoBE */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampusGoBE;
+			sourceTree = "<group>";
+		};
 		B6701D092FB30EE4009101D5 /* CampusGo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CampusGo;
@@ -32,6 +37,7 @@
 		B6701CFE2FB30EE4009101D5 = {
 			isa = PBXGroup;
 			children = (
+				B2E04FFF2FB316F200D76382 /* CampusGoBE */,
 				B6701D092FB30EE4009101D5 /* CampusGo */,
 				B6701D082FB30EE4009101D5 /* Products */,
 			);
@@ -61,6 +67,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				B2E04FFF2FB316F200D76382 /* CampusGoBE */,
 				B6701D092FB30EE4009101D5 /* CampusGo */,
 			);
 			name = CampusGo;
