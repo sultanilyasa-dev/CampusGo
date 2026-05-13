@@ -47,7 +47,7 @@ struct LoginView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
 
-                    Text("Sign in ")
+                    Text("Sign in to access your campus information")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                         .multilineTextAlignment(.center)
