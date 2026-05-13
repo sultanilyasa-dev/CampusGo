@@ -59,7 +59,7 @@ struct LoginView: View {
                             .background(Color.white)
                             .cornerRadius(12)
 
-                        SecureField("Password", text: $password)
+                        SecureField("Kata Sandi", text: $password)
                             .padding()
                             .background(Color.white)
                             .cornerRadius(12)
@@ -92,13 +92,13 @@ struct MainTabView: View {
                     Label("Access ID", systemImage: "person.text.rectangle")
                 }
 
-            Text("Profile Page")
+            Text("Halaman Profile")
                 .font(.title2)
                 .tabItem {
                     Label("Profile", systemImage: "person.circle")
                 }
 
-            Text("Settings Page")
+            Text("Halaman Pengaturan")
                 .font(.title2)
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
